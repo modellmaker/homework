@@ -6,9 +6,11 @@ operation = input("Enter the operand: ")
 
 if operation == "+":
     print("Result: ", num1 + num2)
-if operation == "-":
+elif operation == "-":
     print("Result: ", num1 - num2)
-if operation == "*":
+elif operation == "*":
     print("Result: ", num1 * num2)
-if operation == "/":
+elif operation == "/":
     print("Result: ", num1 / num2)
+else:
+    print("You didn't provide the right operand.")
